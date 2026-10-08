@@ -59,5 +59,19 @@ Valeurs testées :
 - 16 → Très bien
 - 21 → Note invalide
 
+## Exercice 10 — GET et POST
+### GET
+Le formulaire `ex10_get.html` envoie les données avec la méthode GET vers `ex10_get.php`.
+Les valeurs saisies apparaissent dans l'URL après le point d'interrogation `?`.
+Exemple :
+`?nom=Chrarbi&prenom=Kossay&groupe=G1`
+### POST
+Le formulaire `ex10_post.html` envoie les données avec la méthode POST vers `ex10_post.php`.
+Contrairement à GET, les valeurs saisies ne sont pas affichées dans l'URL.
+### Vérifications
+Les champs `nom`, `prenom` et `groupe` sont vérifiés avec `isset()` et `trim()`.
+Les valeurs vides sont refusées.
+Les données affichées dans la page HTML sont protégées avec `htmlspecialchars()`.
+Les pages `ex10_get.php` et `ex10_post.php` affichent un message explicatif lorsqu'elles sont ouvertes directement.
 
   
