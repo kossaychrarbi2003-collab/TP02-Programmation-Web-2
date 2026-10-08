@@ -47,4 +47,17 @@ Avec `var_dump()`, `false` est affiché clairement sous la forme `bool(false)`.
 
 Cela permet de connaître précisément la valeur et le type de la variable.
 
+## Exercice 5 — Conditions
+
+Valeurs testées :
+
+- -1 → Note invalide
+-  9 → Non validé
+- 10 → Passable
+- 12 → Assez bien
+- 14 → Bien
+- 16 → Très bien
+- 21 → Note invalide
+
+
   
