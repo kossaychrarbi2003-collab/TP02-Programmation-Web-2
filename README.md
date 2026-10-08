@@ -39,4 +39,12 @@ PHP est sensible à la casse : `$note` et `$Note` sont deux variables différent
 - `$1a` : invalide
 - `$a1` : valide
 
+## Exercice 4 — Types et conversions
+
+Avec `echo`, la valeur `false` ne produit aucun affichage visible.
+
+Avec `var_dump()`, `false` est affiché clairement sous la forme `bool(false)`.
+
+Cela permet de connaître précisément la valeur et le type de la variable.
+
   
